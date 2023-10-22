@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.ivSlot3 = (ImageView) findViewById(R.id.ivSlot3);
         this.handler = new Handler(Looper.getMainLooper());
 
-        // Set initial background resource for each ImageView
+        // Mengatur resource background awal untuk setiap ImageView pada tiga slot
         ivSlot1.setBackgroundResource(R.drawable.slot_9);
         ivSlot2.setBackgroundResource(R.drawable.slot_9);
         ivSlot3.setBackgroundResource(R.drawable.slot_9);
